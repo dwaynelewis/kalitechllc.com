@@ -109,7 +109,7 @@
     margin-top: 10%;
     margin-left: 25%;
     position:absolute;
-    top:0;
+    top:-43px;
     left:0;
     width:800px;
     height:20px;
@@ -121,7 +121,7 @@
     margin-top: 13%;
     margin-left: 26%;
     position:absolute;
-    top:0;
+    top:-28px;
     left:0;
     width:800px;
     height:20px;
@@ -161,35 +161,6 @@
 		color: #0e194c;
 }
 
-/* #abu{
-	border-top-left-radius: 25%;
-	border-bottom-left-radius: 25%;
-}
-
-#con{
-	border-top-right-radius: 25%;
-	border-bottom-right-radius: 25%;
-} */
-
-
-/* body{
-   font: 400 12px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
-background-color: RED;
-}
-.page{
-  margin:0 auto;
-  padding-top:20em;
-  width: 800px;
-}
-#home-news{
-  font-size: 40px;
-	text-align:center;
-	text-transform:uppercase;
-	color:#464646;
-	height: 45px;
-	line-height: 45px;
-	overflow:hidden;
-	position:relative;
-} */
-
+nav.nav2 a{
+	height: 32px;
 }
