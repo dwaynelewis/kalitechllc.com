@@ -511,6 +511,7 @@ function initSolonick() {
         $("#message").slideUp(750, function() {
             $("#message").hide();
             $("#submit").attr("disabled", "disabled");
+            console.log(';post urlllllll', a)
             $.post(a, {
                 name: $("#name").val(),
                 email: $("#email").val(),
@@ -520,6 +521,7 @@ function initSolonick() {
                 verify: $('#verify').val()
 
             }, function(a) {
+                console.log('message sent', a);
                 document.getElementById("message").innerHTML = a;
                 $("#message").slideDown("slow");
                 $("#submit").removeAttr("disabled");
@@ -537,7 +539,7 @@ function initSolonick() {
         var a = $(this).attr("action");
 
         $.post(a, {
-            email: $("subscribe-email").val()
+            email: $("#subscribe-email").val()
         }, function() {
             $("#subscribe-email").val("");
         });

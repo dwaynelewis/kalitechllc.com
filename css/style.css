@@ -128,7 +128,7 @@ p {
     line-height: 24px;
     padding-bottom: 10px;
     font-weight: 500;
-    color: #878C9F;
+    color: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -304,7 +304,7 @@ blockquote p {
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.4;
+    opacity: 0;
     z-index: 3;
 }
 
@@ -408,11 +408,12 @@ blockquote p {
     left: 0;
     width: 100%;
     bottom: -1px;
-    color: rgba(255, 255, 255, 0.41);
-    font-size: 10px;
+    /* color: rgba(255, 255, 255, 0.41); */
+    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: white;
 }
 
 .nav-button.cmenu .menu-button-text {
@@ -1531,16 +1532,18 @@ p.interact,
     text-align: left;
     font-weight: 600;
     line-height: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     position: relative;
+    text-align: center;
 }
 
 .half-hero-wrap h4 {
     padding: 15px 30px;
-    background: rgba(0, 0, 0, 0.21);
-    text-align: left;
-    font-size: 11px;
-    float: left;
+    /* background: rgba(0, 0, 0, 0.21); */
+    background-color: black;
+    /* text-align: left; */
+    font-size: 16px;
+    /* float: left; */
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.71);
     letter-spacing: 6px;
@@ -2193,8 +2196,12 @@ section.parallax-section.parallax-sec-half-left .section-title h2:after {
 }
 
 section.parallax-section .section-title p {
-    color: rgba(255, 255, 255, 0.71);
+    /* color: rgba(255, 255, 255, 0.71); */
+    color: whitesmoke;
+    background-color: black;
+    opacity: .6;
     max-width: 550px;
+    font-size: 18px;
 }
 
 section .section-title p {
@@ -2212,7 +2219,7 @@ section.parallax-section .section-title:before {
     font-weight: 600;
     font-size: 14px;
     position: relative;
-    color: #999;
+    color: black;
 }
 
 .section-title h3:before {
@@ -2436,6 +2443,7 @@ section.parallax-section .section-title:before {
 .main-about p,
 .main-about h5 {
     text-align: left;
+    font-size: 11px;
 }
 
 .main-about h5 {
@@ -2464,8 +2472,8 @@ section.parallax-section .section-title:before {
 
 .about-wrap {
     padding: 25px 30px;
-    background: #FCFCFC;
-    border: 1px solid #eee;
+    background: white;
+    border: 1px solid whitesmoke;
 }
 
 .about-wrap p {
@@ -2783,7 +2791,8 @@ section.parallax-section .section-title:before {
 .inline-facts-wrap h6 {
     position: relative;
     margin-top: 6px;
-    color: rgba(255, 255, 255, 0.51);
+    /* color: rgba(255, 255, 255, 0.51); */
+    color: white;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -5591,7 +5600,7 @@ section.parallax-section .section-title:before {
     padding: 5px 0 5px 10px;
     text-align: left;
     font-weight: 800;
-    color: #666;
+    color: black;
 }
 
 .custom-inner .content-nav ul {
@@ -7240,7 +7249,7 @@ section.parallax-section .section-title:before {
         line-height: 80px;
     }
     .logo-holder img {
-        width: 30px;
+        width: 65px;
         height: auto;
     }
     .nav-button {
@@ -7591,7 +7600,7 @@ section.parallax-section .section-title:before {
     }
     .half-hero-wrap h1 {
         font-size: 26px;
-        line-height: 40px;
+        line-height: 35px;
     }
     .half-hero-wrap h4,
     .hero-decor-let,
